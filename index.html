@@ -12,14 +12,13 @@
   <Header>
       <div class = "logo">
         <img src="./resources/images/ic-logo.svg" alt="lion logo">
-        <span>COLMAR ACADEMY</span>
+        <span><strong>COLMAR</strong> ACADEMY</span>
       </div>
       <nav class = "desktop"> <!-- Header for Hero-->
-        <ul>
-          <li><a>On Campus</a></li>
-          <li><a>Online</a></li>
-          <li><a>For Companies</a></li>
-          <li><a>Sign In</a></li>
+          <span><a>On Campus</a></span>
+          <span><a>Online</a></span>
+          <span><a>For Companies</a></span>
+          <span><a>Sign In</a></span>
         </ul>
       </nav>
       <nav class = "mobile"> <!-- Header for Mobile-->
@@ -30,64 +29,53 @@
     </header>
 
     <!-- Hero Section -->
-    <div class = "Hero">
-      <div class = "HeroImage">
-        <img src= "./resources/images/banner.jpg" alt="women reading">
-      </div>
-      <div class = "HeroText">
+    <div class = "hero">
+      <img src= "./resources/images/banner.jpg" alt="women reading">
+      <div class = "herotext">
         <h1>Learn something new every day</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
         <p class = "button">Start Here</p>
       </div>
     </div>
 
     <!-- Information Section -->
     <div class = "information">
-      <div class = "informationhero">
+      <div class="informationhero">
         <img src="./resources/images/information-main.jpg" alt="">
         <h2>It doesn't hurt to keep practicing</h2>
-        <span class ="quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</span>
-        <span class = "citation">Emanuel, Sr Strategist at Hiring.com</span>
+        <p class ="quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+        <p class = "citation">Emanuel, Sr Strategist at Hiring.com</p>
       </div>
       <div class ="informationoptions"> <!-- Desktop version -->
         <div class = "option">
           <img src="./resources/images/information-orientation.jpg" alt="">
-          <h3>Orientation date</h3>
-          <span> Tues 10/11 & Wed 10/12:  8am - 3pm</span>
-          <span class = "link">read more</span>
+          <img class ="imgmobile" src="./resources/images/information-orientation-mobile.jpg" alt="">
+          <div class = "optiontext">
+          <h3>Orientation date</h2>
+          <p> Tues 10/11 & Wed 10/12: 8am - 3pm</p>
+          <p class = "link">Read more</p>
+        </div>
         </div>
         <div class = "option">
           <img src="./resources/images/information-campus.jpg" alt="">
+          <img class ="imgmobile" src="./resources/images/information-campus-mobile.jpg" alt="">
+          <div class="optiontext">
           <h3>Our Campus</h3>
-          <span>Find which campus is close by you</span>
-          <span class = "link">read more</span>
+          <p>Find which campus is close by you</p>
+          <p class = "link">Read more</p>
+        </div>
         </div>
         <div class = "option">
           <img src="./resources/images/information-guest-lecture.jpg" alt="">
+          <img class ="imgmobile" src="./resources/images/information-guest-lecture-mobile.jpg" alt="">
+          <div class = "optiontext">
           <h3>Our guest lecture</h3>
-          <span> Join a keynote with Oliver Sack about music in medical treatment</span>
-          <span class = "link">read more</span>
+          <p> Join a keynote with Oliver Sack about music in medical treatment</p>
+          <p class = "link">Read more</p>
         </div>
-        <div class ="informationoptionsmobile"> <!-- Mobile Version -->
-          <div class = "option">
-            <img src="./resources/images/information-orientation-mobile.jpg" alt="">
-            <h3>Orientation date</h3>
-            <span> Tues 10/11 & Wed 10/12:  8am - 3pm</span>
-            <span class = "link">read more</span>
-          </div>
-          <div class = "option">
-            <img src="./resources/images/information-campus-mobile.jpg" alt="">
-            <h3>Our Campus</h3>
-            <span>Find which campus is close by you</span>
-            <span class = "link">read more</span>
-          </div>
-          <div class = "option">
-            <img src="./resources/images/information-guest-lecture-mobile.jpg" alt="">
-            <h3>Our guest lecture</h3>
-            <span> Join a keynote with Oliver Sack about music in medical treatment</span>
-            <span class = "link">read more</span>
-          </div>
+        </div>
       </div>
+    </div>
 
 
 
@@ -133,12 +121,13 @@
       </div>
 
       <!-- Thesis Exhibit Section -->
-      <div class = "Thesis">
+      <div class = "thesis">
         <div class = "thesisvideo">
           <video controls src="./resources/videos/thesis.mp4"></video>
           <h3>Reimagine Urban</h3>
           <span class ="quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</span>
         </div>
+        <div class = "exhibitblock">
         <div class = "exhibits">
           <img src="./resources/images/thesis-fisma.jpg" alt="">
           <h3>Fisma: Design and Prototype</h3>
@@ -149,6 +138,7 @@
           <h3>Now and then</h3>
           <span>Research Study about New York</span>
         </div>
+       </div>
       </div>
 
       <!-- Footer Section -->
